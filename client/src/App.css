@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.Content{
+  display: flex;
+  justify-content: space-between; 
+}
+
+.Editor{
+  height: 70vh;
+  width: 40vw;
+  border: 2px solid black;
+  text-align: left;
+  padding: 20px;
+}
+
+.PlaceHolder::before {
+  content: "Enter HTML code here...";
+  color: #888;
+  opacity: 0.6;
+}
+
+.Output{
+    height: 70vh;
+    width: 40vw;
+    border: 2px solid black;
+    text-align: left;
+    padding: 20px;
+}
+
+.Divider{
+  border: 1px solid black;
+  height: 70vh;
+  margin: auto;
+}
